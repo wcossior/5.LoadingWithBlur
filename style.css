@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container{
+    /* background: url('https://www.10wallpaper.com/wallpaper/1366x768/1502/maine_coon_cat-Photography_HD_Wallpaper_1366x768.jpg'); */
+    background: url('https://www.10wallpaper.com/wallpaper/1366x768/1502/maine_coon_cat-Photography_HD_Wallpaper_1366x768.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(10px);
+    opacity: 0.1;
+}
