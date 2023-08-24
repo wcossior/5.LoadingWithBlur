@@ -3,8 +3,8 @@ let percentage = 0;
 
 function increasePercentage() {
     percentage++
-    percentegeHtml.textContent = percentage;
-    console.log(percentage);
+    let percentageText = percentage.toString();
+    percentegeHtml.textContent = percentageText + '%';
 }
 const idInterval = setInterval(increasePercentage, 300);
 
