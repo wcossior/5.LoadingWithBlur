@@ -6,9 +6,9 @@ function increasePercentage() {
     let percentageText = percentage.toString();
     percentegeHtml.textContent = percentageText + '%';
 }
-const idInterval = setInterval(increasePercentage, 300);
+const idInterval = setInterval(increasePercentage, 40);
 
 setTimeout(function () {
     clearInterval(idInterval);
-}, 900);
+}, 4000);
 
