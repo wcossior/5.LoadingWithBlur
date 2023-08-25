@@ -25,7 +25,6 @@ body {
     background-position: center;
     filter: blur(40px);
     z-index: -1;
-
 }
 
 .percentage-text {
