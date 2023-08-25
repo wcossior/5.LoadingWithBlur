@@ -7,8 +7,7 @@ let opacityPercentText = 1.00;
 function increasePercentage() {
     percentage++
     blurBg = blurBg - 0.4;
-    opacityPercentText = opacityPercentText - 0.01;
-    console.log(opacityPercentText);
+    opacityPercentText = (opacityPercentText - 0.01).toFixed(2);
     if (percentage > 99) {
         clearInterval(idInterval);
     }
